@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "playerlightfix",
+  "version": "${version}",
+
+  "name": "Player Light Fix",
+  "description": "Simple mod that fixes the inventory player lighting in 1.15+.",
+  "authors": [
+    "Draylar"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/plf/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "playerlightfix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  }
+}

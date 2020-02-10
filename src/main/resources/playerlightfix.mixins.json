@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "draylar.plf.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "InventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
