@@ -1,16 +1,15 @@
-# Fabric Example Mod
+# Player Light Fix
 
-## Setup
+## Overview
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+1.15 made changes to the inventory lighting system. Whether intentional or by accident, the player rendered in the inventory was also changed, and is now much darker and harder to see. This mod reverts that change as shown in the visual:
 
-```
-./gradlew idea
-```
+![](https://i.imgur.com/UG0C2V1.png)
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is licensed under MIT. You are free to use anything in this repository as you need.
+
+## Ports/Forge
+
+I will not port the mod to Forge. Anyone else is more than welcome to do so, and I will happily accept and manage any PR that does that into this repo if requested.
